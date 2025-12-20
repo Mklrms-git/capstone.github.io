@@ -1,0 +1,30 @@
+USERNAME AND PASSWORDS
+
+username: admin
+password: juan123
+
+username: doctor
+password: maria123
+
+username: docDaez
+password: daez123
+
+DATABASE IMPORT
+mhavis > mhavis > sql 
+Database Name: mhavis.sql
+
+
+SAMPLE PATIENTS
+username: hnnhpwln
+password: hannah123
+
+username: mklrms
+password: mikay12345
+
+username: pjsbandal
+password: pjsbandal123
+
+EMAIL OF MHAVIS
+email: noreply.mhavis@gmail.com
+password: @mhavis2025
+
