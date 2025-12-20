@@ -1,0 +1,23 @@
+[2025-12-01 00:49:20] === Starting Auto Settle Appointments Process ===
+[2025-12-01 00:49:20] Cutoff date: 2025-11-24 00:49:20 (appointments not updated since this date will be auto-settled)
+[2025-12-01 00:49:20] Found 9 appointment(s) eligible for auto-settlement
+[2025-12-01 00:49:20] Auto-settled appointment #2 (Status: scheduled, Date: 2025-07-01 11:00:00, Last updated: 2025-06-04 17:32:22)
+[2025-12-01 00:49:20] Auto-settled appointment #4 (Status: scheduled, Date: 2025-06-05 10:00:00, Last updated: 2025-06-05 14:44:48)
+[2025-12-01 00:49:20] Auto-settled appointment #6 (Status: scheduled, Date: 2025-08-05 17:15:00, Last updated: 2025-07-31 12:14:30)
+[2025-12-01 00:49:20] Auto-settled appointment #10 (Status: scheduled, Date: 2025-08-15 04:00:00, Last updated: 2025-08-11 16:00:19)
+[2025-12-01 00:49:20] Auto-settled appointment #11 (Status: scheduled, Date: 2025-08-22 08:10:00, Last updated: 2025-08-14 20:10:52)
+[2025-12-01 00:49:20] Auto-settled appointment #16 (Status: scheduled, Date: 2025-09-10 13:00:00, Last updated: 2025-09-05 18:13:06)
+[2025-12-01 00:49:20] Auto-settled appointment #17 (Status: scheduled, Date: 2025-09-07 13:00:00, Last updated: 2025-09-05 18:37:45)
+[2025-12-01 00:49:20] Auto-settled appointment #22 (Status: scheduled, Date: 2025-09-07 13:00:00, Last updated: 2025-09-06 18:02:09)
+[2025-12-01 00:49:20] Auto-settled appointment #41 (Status: scheduled, Date: 2025-11-10 11:00:00, Last updated: 2025-11-05 08:55:17)
+[2025-12-01 00:49:20] --- Auto Settle Summary ---
+[2025-12-01 00:49:20] Total appointments found: 9
+[2025-12-01 00:49:20] Successfully auto-settled: 9
+[2025-12-01 00:49:20] Skipped (already processed): 0
+[2025-12-01 00:49:20] Failed: 0
+[2025-12-01 00:49:20] === Auto Settle Appointments Process Completed ===
+[2025-12-01 00:49:25] === Starting Auto Settle Appointments Process ===
+[2025-12-01 00:49:25] Cutoff date: 2025-11-24 00:49:25 (appointments not updated since this date will be auto-settled)
+[2025-12-01 00:49:25] Found 0 appointment(s) eligible for auto-settlement
+[2025-12-01 00:49:25] No appointments need to be auto-settled.
+[2025-12-01 00:49:25] === Auto Settle Appointments Process Completed ===
