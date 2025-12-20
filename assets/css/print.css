@@ -1,0 +1,118 @@
+/* Print Styles */
+@media print {
+    /* Hide non-essential elements when printing */
+    header, 
+    .sidebar,
+    .no-print,
+    .btn,
+    .nav-tabs {
+        display: none !important;
+    }
+
+    /* Reset body and container styles for printing */
+    body {
+        background: #fff !important;
+        font-size: 12pt;
+        color: #000;
+    }
+
+    .container-fluid {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Watermark styling */
+    .print-wrapper {
+        position: relative;
+        z-index: 1;
+    }
+
+    .watermark {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        opacity: 0.1;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .watermark img {
+        width: 400px;
+        height: auto;
+    }
+
+    /* Report header styling */
+    .report-header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 20px 0;
+        border-bottom: 2px solid #0c1a6a;
+    }
+
+    .report-header img.logo {
+        height: 80px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .report-header h1 {
+        color: #0c1a6a;
+        font-size: 24pt;
+        margin: 0;
+    }
+
+    .report-header p {
+        color: #1a2fa0;
+        font-size: 12pt;
+        margin: 5px 0;
+    }
+
+    /* Table styling for print */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        page-break-inside: auto;
+    }
+
+    .table th,
+    .table td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        page-break-inside: avoid;
+    }
+
+    .table th {
+        background-color: #f8f9fa !important;
+        color: #0c1a6a;
+    }
+
+    /* Chart and graph styling */
+    .chart-container {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+    }
+
+    /* Page break utilities */
+    .page-break {
+        page-break-before: always;
+    }
+
+    /* Footer styling */
+    .report-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 10pt;
+        color: #666;
+        padding: 10px 0;
+        border-top: 1px solid #ddd;
+    }
+
+    .report-footer .page-number:after {
+        content: counter(page);
+    }
+} 
